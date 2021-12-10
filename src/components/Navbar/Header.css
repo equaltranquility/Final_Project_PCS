@@ -1,0 +1,112 @@
+.header {
+    border-bottom: 1px solid #f6f6f6;
+    padding: 40px 0;
+}
+.header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+    }
+}
+
+.header__cart {
+    margin-right: 0;
+}
+
+@media (max-width: 768px) {
+    .header__cart {
+        margin-top: 30px;
+    }
+}
+.header__logo {
+    display: flex;
+}
+.header__logo img {
+    margin-right: 15px;
+}
+.header__logo h1 {
+    color: #181818;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+.header__logo p {
+    color: #7b7b7b;
+}
+
+.header__nav_links {
+    margin-right: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button__delimiter {
+    display: inline-block;
+    width: 1px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.25);
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.button--cart {
+    display: flex;
+    align-items: center;
+    line-height: 23px;
+    padding: 12px 25px;
+    text-align: center;
+    margin-right: 0;
+}
+.button--cart svg {
+    margin-right: 8px;
+    margin-bottom: 1px;
+}
+.button--cart span {
+    font-weight: 600;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto auto;
+}
+
+
+.button i,
+.button span,
+.button path,
+.button svg {
+    transition: all 0.15s ease-in-out;
+}
+.button:hover {
+    background-color: #f24701;
+}
+.button:active {
+    background-color: #de4101;
+    transform: translateY(1px);
+}
+.button--link {
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+    border: 1px solid transparent;
+    user-select: none;
+    color: #686868;
+    font-weight: 600;
+    margin: 3.5% 5px;
+    flex-wrap: wrap;
+}
+
+.button--link:hover {
+    text-decoration: underline;
+    color: #000;
+}
+.button--link:active {
+    transform: translateY(1px);
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+}
