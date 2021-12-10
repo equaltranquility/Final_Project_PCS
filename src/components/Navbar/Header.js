@@ -32,7 +32,7 @@ const Header = () => {
               Войти
             </NavLink>
             <NavLink to="/signup" className="button--link">
-              Зарегистрироваться
+              Регистрация
             </NavLink>
           </div>
         </div>
