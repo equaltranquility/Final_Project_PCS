@@ -71,11 +71,8 @@
   letter-spacing: 0.015em;
 }
 
-.content {
-  padding: 40px 0;
-}
 .content__title {
-  margin: 35px 0;
+  margin: 25px 0 35px 0;
 }
 @media (max-width: 768px) {
   .content__title {
